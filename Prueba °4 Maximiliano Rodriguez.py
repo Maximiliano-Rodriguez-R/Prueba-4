@@ -50,7 +50,7 @@ def eliminar_usuario():
     else:
         print("No se pudo eliminar usuario!")
 
-def main():
+def menu():
     while True:
         print("\nMenú de opciones:")
         print("1.- Ingresar usuario.")
@@ -70,4 +70,4 @@ def main():
             break
         else:
             print("Opción inválida. Por favor, seleccione una opción válida.")
-    main()
+    menu()
